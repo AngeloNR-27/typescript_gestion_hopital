@@ -10,3 +10,7 @@ var Montant = 0;
 console.log("Arrival date: ", Date_Arriver.toLocaleDateString());
 console.log("Stay duration: ", Sejour, "nights");
 console.log("Departure date: ", Date_Depart.toLocaleDateString());
+for (var Classe in ClasseChambre) {
+    Montant = ClasseChambre[Classe] * Sejour;
+    console.log("Total \u00E0 payer pour la chambre de classe ".concat(Classe, ": $"), Montant);
+}
