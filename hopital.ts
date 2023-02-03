@@ -4,7 +4,7 @@ const Date_Depart = new Date(2023, 1, 5);
 const ClasseChambre = {
   1: 350,
   2: 200,
-  3: 100
+  3: 150
 };
 
 let Montant = 0;
