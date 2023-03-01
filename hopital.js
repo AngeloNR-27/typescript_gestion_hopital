@@ -11,5 +11,5 @@ for (var classeChambre in tarifsChambres) {
     console.log("Total \u00E0 payer pour la chambre de classe ".concat(classeChambre, ": $").concat(montantTotalChambre));
 }
 console.log("date arriver: ", dateArrivee.toLocaleDateString());
-console.log("duree de sejour: ", dureeSejour, "nights");
+console.log("duree de sejour: ", dureeSejour, "nuit");
 console.log("date de depart: ", dateDepart.toLocaleDateString());

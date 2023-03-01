@@ -13,5 +13,5 @@ for (const classeChambre in tarifsChambres) {
 }
 
 console.log("date arriver: ", dateArrivee.toLocaleDateString());
-console.log("duree de sejour: ", dureeSejour, "nights");
+console.log("duree de sejour: ", dureeSejour, "nuit");
 console.log("date de depart: ", dateDepart.toLocaleDateString());
